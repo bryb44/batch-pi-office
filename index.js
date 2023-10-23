@@ -151,7 +151,7 @@ const requestsDatas = {
         userId: 'fbalavoine',
         endpointId: '440215',
         siteId: 'c580',
-        pwd: ''
+        pwd: 'Sp0rt2ooo#'
     }
 }
 
@@ -172,8 +172,8 @@ function refreshVarsToPatch(lineItems) {
     requestsDatas.prepareOrderBody.line_items = lineItems
     requestsDatas.prepareOrderBody.site_id = requestsDatas.sessionVars.siteId
     requestsDatas.prepareOrderBody.token = requestsDatas.sessionVars.token
-    fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "New datas to patch :  " + JSON.stringify(requestsDatas.prepareOrderBody) + "\r\n")
-    console.log('new datas to patch : ' + requestsDatas.prepareOrderBody)
+    //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "New datas to patch :  " + JSON.stringify(requestsDatas.prepareOrderBody) + "\r\n")
+    //console.log('new datas to patch : ' + requestsDatas.prepareOrderBody)
 }
 
 
@@ -192,8 +192,10 @@ async function getToken () {
     })
 }
 
-async function getProduct(itemId, token) {
-    await axios.get(`https://api.onestock-retail.com/items?{"item_ids":["${itemId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${token}"}=`).then(response => {
+async function getProduct(objectToGet) {
+//    console.log(`https://api.onestock-retail.com/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${objectToGet.token}"}=`)
+    await axios.get(`https://api.onestock-retail.com/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${objectToGet.token}"}=`)
+    .then(response => {
         const items =  response.data.items.map(item => {
             return {
                 id: item.id,
@@ -205,26 +207,31 @@ async function getProduct(itemId, token) {
                 pvc: item.features.fr.pvc
             }
         })
-        fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " " + JSON.stringify(items) + "\r\n")
-    })
+        console.log(items)
+        fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " Order taken is :    " + JSON.stringify(items) + "\r\n")
+    }).catch(errorGettingProduct => console.log("error wesh" + errorGettingProduct))
 }
 
 async function prepareOrder(response) {
     const respIds = response.line_item_ids // e.g. ["652ac0a679f169b03453816f"]
-
-    fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order in preeparation  :" + JSON.stringify(response) + "\r\n")
-    fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Datas incoming  :" + JSON.stringify({
+    
+    //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order in preeparation  :" + JSON.stringify(response) + "\r\n")
+    /*fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Datas incoming  :" + JSON.stringify({
         "endpoint_id": requestsDatas.prepareOrderBody.endpoint_id,
         "user_id": requestsDatas.prepareOrderBody.user_id,
         "line_items": respIds,
         "site_id": requestsDatas.prepareOrderBody.site_id,
         "token": requestsDatas.sessionVars.token
-    }) + "\r\n")
+    }) + "\r\n")*/
 
+    const logs = {
+        commandeId: response.id,
+        articleId: response.line_items[0].item_id,
+        token: requestsDatas.sessionVars.token
+    }
 
-
-    console.log("On doit preparer quelque chose ")
-    console.log(response)
+//    console.log("On doit preparer quelque chose, id article : ")
+    console.log(logs.commandeId)
     //refreshVarsToPatch(respIds)
     await axios.patch(`${requestsDatas.baseUrl}/line_items`, {
         "endpoint_id": requestsDatas.prepareOrderBody.endpoint_id,
@@ -232,12 +239,15 @@ async function prepareOrder(response) {
         "line_items": respIds,
         "site_id": requestsDatas.prepareOrderBody.site_id,
         "token": requestsDatas.sessionVars.token
-    }).then(respTakenOrder => {
+    }).then(async respTakenOrder => {
         fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order Prepared :" + respTakenOrder + "\r\n")
-        //getProduct(respIds[0], requestsDatas.sessionVars.token)
+        console.log('Order Prepared') 
+        getProduct(logs)
     }).catch(err => {
-        if(err.name) {
-           console.log(err.data.name) 
+        if(err.response) {
+           //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Da>
+           //console.log(err.response)
+           console.log("hehe");
         } else {
             throw err
         }
@@ -259,24 +269,29 @@ async function getOrders() {
                     // const newOrder = el.filter(obj => !obj.parcels[0].delivery.carrier) // ceux qui ont pas delivery.carrier
                     // newOrder.length != el.length ? null : console.log(el) // si y en a autant qui ont delivery.carrier que la totalité, alors c deja traité
                     //const newOrder = el.filter(obj => obj.parcels[0].delivery.carrier == undefined) // ceux qui ont pas delivery.carrier
-                    newOrder.length > 0 ? console.log('pas de delivery : on y goooo'): null
+                    // newOrder.length > 0 ? console.log('pas de delivery : on y goooo'): null
                     newOrder.forEach(order => prepareOrder(order)) // on les prepare
                 }
             })
         })
     } catch (err) {
         if(err.response && err.response.data && err.response.data.error == "auth_error"){
-            fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error :" + JSON.stringify(err) + "\r\n")
+            if(err.message == "Request failed with status code 400" && err.name == "AxiosError") {
+                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error  : Axios erreur, trop d'appel simultanés\r\n")
+            } else {
+                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error1 :" + JSON.stringify(err) + "\r\n")
+            }
+            
 
             getToken()
         } else {
             if(err.response && err.response.status && err.response.status == 401) {
-                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error :" + JSON.stringify(err) + "\r\n")
+                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error2 :" + JSON.stringify(err) + "\r\n")
 
                 getToken()
             } else {
                 if(err.config && (err.config.url == 'https://api.onestock-retail.com/multi/orders' || err.config.url == 'https://api.onestock-retail.com/login' || err.cause == 'getaddrinfo')) {
-                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error :" + JSON.stringify(err) + "\r\n")
+                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error3 :" + JSON.stringify(err) + "\r\n")
                     
                 getToken()
                 } else {
@@ -299,6 +314,6 @@ getToken();
 getOrders();
 const interval = setInterval(async function() {
      await getOrders();
-}, 400);
+}, 200);
 
 
