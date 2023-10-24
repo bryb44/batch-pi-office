@@ -1,10 +1,5 @@
-// import axios from 'axios'
 const axios = require('axios')
 const fs = require('fs')
-// import CacheableLookup from 'cacheable-lookup';
-// const cacheable = new CacheableLookup();
-// import fs from 'fs'
-// import getItem from './getItem'
 const requestsDatas = {
     getOrdersBody : {
         "bodies": [
@@ -154,7 +149,7 @@ const requestsDatas = {
         pwd: 'Sp0rt2ooo#'
     }
 }
-
+const datasUsed = []
 
 function refreshVarsToGet () {
     requestsDatas.getOrdersBody.site_id = requestsDatas.sessionVars.siteId;
@@ -166,19 +161,8 @@ function refreshVarsToGet () {
     })
 }
 
-function refreshVarsToPatch(lineItems) {
-    requestsDatas.prepareOrderBody.endpoint_id = requestsDatas.sessionVars.endpointId
-    requestsDatas.prepareOrderBody.user_id = requestsDatas.sessionVars.userId
-    requestsDatas.prepareOrderBody.line_items = lineItems
-    requestsDatas.prepareOrderBody.site_id = requestsDatas.sessionVars.siteId
-    requestsDatas.prepareOrderBody.token = requestsDatas.sessionVars.token
-    //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "New datas to patch :  " + JSON.stringify(requestsDatas.prepareOrderBody) + "\r\n")
-    //console.log('new datas to patch : ' + requestsDatas.prepareOrderBody)
-}
-
 
 async function getToken () {
-    //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "New token is asked \r\n")
     await axios.post(`${requestsDatas.baseUrl}/login`, {
         "captcha": "",
         "password": requestsDatas.sessionVars.pwd,
@@ -193,7 +177,6 @@ async function getToken () {
 }
 
 async function getProduct(objectToGet) {
-//    console.log(`https://api.onestock-retail.com/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${objectToGet.token}"}=`)
     await axios.get(`https://api.onestock-retail.com/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${objectToGet.token}"}=`)
     .then(response => {
         const items =  response.data.items.map(item => {
@@ -214,16 +197,11 @@ async function getProduct(objectToGet) {
 
 async function prepareOrder(response) {
     const respIds = response.line_item_ids // e.g. ["652ac0a679f169b03453816f"]
-    
-    //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order in preeparation  :" + JSON.stringify(response) + "\r\n")
-    /*fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Datas incoming  :" + JSON.stringify({
-        "endpoint_id": requestsDatas.prepareOrderBody.endpoint_id,
-        "user_id": requestsDatas.prepareOrderBody.user_id,
-        "line_items": respIds,
-        "site_id": requestsDatas.prepareOrderBody.site_id,
-        "token": requestsDatas.sessionVars.token
-    }) + "\r\n")*/
-
+    if(datasUsed.find(data => data = response.id).length == 0) {
+        datasUsed.push(response.id)
+    } else {
+        fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order already Prepared :" + response.id + "\r\n")
+    }
     const logs = {
         commandeId: response.id,
         articleId: response.line_items[0].item_id,
@@ -245,8 +223,6 @@ async function prepareOrder(response) {
         getProduct(logs)
     }).catch(err => {
         if(err.response) {
-           //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Da>
-           //console.log(err.response)
            console.log("hehe");
         } else {
             throw err
@@ -266,10 +242,6 @@ async function getOrders() {
             responseMap.forEach(el => {
                 if(el.length > 0) { // on a qqch dans l'objet
                     const newOrder = el.filter(obj => !obj.parcels[0]) // ceux qui ont pas delivery.carrier
-                    // const newOrder = el.filter(obj => !obj.parcels[0].delivery.carrier) // ceux qui ont pas delivery.carrier
-                    // newOrder.length != el.length ? null : console.log(el) // si y en a autant qui ont delivery.carrier que la totalité, alors c deja traité
-                    //const newOrder = el.filter(obj => obj.parcels[0].delivery.carrier == undefined) // ceux qui ont pas delivery.carrier
-                    // newOrder.length > 0 ? console.log('pas de delivery : on y goooo'): null
                     newOrder.forEach(order => prepareOrder(order)) // on les prepare
                 }
             })
@@ -291,7 +263,7 @@ async function getOrders() {
                 getToken()
             } else {
                 if(err.config && (err.config.url == 'https://api.onestock-retail.com/multi/orders' || err.config.url == 'https://api.onestock-retail.com/login' || err.cause == 'getaddrinfo')) {
-                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error3 :" + JSON.stringify(err) + "\r\n")
+                fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error3 : server refused connection \r\n")
                     
                 getToken()
                 } else {
