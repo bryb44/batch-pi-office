@@ -155,3 +155,7 @@
 10:52 Order taken is :    [{"id":"2005773156198","name":["SWEAT CAPUCHE ZIPPÉ HOMME\r\n"],"marque":["FFF"],"prixAchat":["24.7"],"prixNet":["55.0"],"pvc":["55.0"]}]
 11:13 Order number is :    WEBP000144241
 11:13 Order taken is :    [{"id":"0196969181857","name":["Chaussures de trail Femme WMNS NIKE JUNIPER TRAIL 2 NN Violet"],"marque":["NIKE"],"prixAchat":["45.0"],"prixNet":["89.99"],"pvc":["89.99"]}]
+14:59 Order taken is :    [{"id":"2005773268457","name":["Sweat zip à capuche Homme MINIMAL GOLD HOODIE FL Noir"],"marque":["PUMA"],"prixAchat":["36.59"],"prixNet":["75.0"],"pvc":["75.0"]}]
+15:0 Order taken is :    [{"id":"5714911048598","name":["Bottines Femme ONLBOLD-4 PU LACE UP BOOT NOOS Noir"],"marque":["ONLY"],"prixAchat":["22.22"],"prixNet":["59.99"],"pvc":["59.99"]}]
+15:15 Order number is :    WEBP000144536
+15:15 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]

@@ -1,5 +1,11 @@
 const axios = require('axios')
 const fs = require('fs')
+const dotenv = require('dotenv');
+
+dotenv.config();
+const envVars = process.env;
+
+
 const requestsDatas = {
     getOrdersBody : {
         "bodies": [
@@ -38,8 +44,8 @@ const requestsDatas = {
             "line_item_from": [
                 "placed"
             ],
-            "user_id": "fbalavoine",
-            "endpoint_id": "440215",
+            "user_id": envVars.USER_ID,
+            "endpoint_id": envVars.ENDPOINT_ID,
             "limit": 51
             },
             {
@@ -51,7 +57,7 @@ const requestsDatas = {
                 "line_items.id"
             ],
             "filter": {
-                "parcels.delivery.origin.endpoint_id": "440215",
+                "parcels.delivery.origin.endpoint_id": envVars.ENDPOINT_ID,
                 "state": {
                 "$in": [
                     "orchestrating",
@@ -63,8 +69,8 @@ const requestsDatas = {
             "parcel_from": [
                 "packed"
             ],
-            "user_id": "fbalavoine",
-            "endpoint_id": "440215"
+            "user_id": envVars.USER_ID,
+            "endpoint_id": envVars.ENDPOINT_ID
             },
             {
             "fields": [
@@ -72,7 +78,7 @@ const requestsDatas = {
                 "line_items.state"
             ],
             "filter": {
-                "parcels.delivery.destination.endpoint_id": "440215",
+                "parcels.delivery.destination.endpoint_id": envVars.ENDPOINT_ID,
                 "state": {
                 "$in": [
                     "orchestrating",
@@ -85,8 +91,8 @@ const requestsDatas = {
             "parcel_from": [
                 "dispatched"
             ],
-            "user_id": "fbalavoine",
-            "endpoint_id": "440215"
+            "user_id": envVars.USER_ID,
+            "endpoint_id": envVars.ENDPOINT_ID
             },
             {
             "fields": [
@@ -110,7 +116,7 @@ const requestsDatas = {
                     "ckc_ready"
                 ]
                 },
-                "parcels.delivery.destination.endpoint_id": "440215",
+                "parcels.delivery.destination.endpoint_id": envVars.ENDPOINT_ID,
                 "state": {
                 "$in": [
                     "processing",
@@ -124,29 +130,32 @@ const requestsDatas = {
                 "received",
                 "bagged"
             ],
-            "user_id": "",
-            "endpoint_id": ""
+            // "user_id": "",
+            // "endpoint_id": ""
+            "user_id": envVars.USER_ID,
+            "endpoint_id": envVars.ENDPOINT_ID
             }
         ],
-        "site_id": "",
+        "site_id": envVars.SITE_ID,
+        // "site_id": "",
         "token": ""
     },
     prepareOrderBody: {
-        "endpoint_id": "440215",
-        "user_id": "fbalavoine",
+        "endpoint_id": envVars.ENDPOINT_ID,
+        "user_id": envVars.USER_ID,
         "line_items": [
           "652941346450d2c4a95c61b5"
         ],
-        "site_id": "c580",
+        "site_id": envVars.SITE_ID,
         "token": "35a0985129ff3fd079af93be9ce32a00"
     },
-    baseUrl : 'https://api.onestock-retail.com',
+    baseUrl : envVars.BASE_URL,
     sessionVars : {
         token: '',
-        userId: 'fbalavoine',
-        endpointId: '440215',
-        siteId: 'c580',
-        pwd: 'Sp0rt2ooo#'
+        userId: envVars.USER_ID,
+        endpointId: envVars.ENDPOINT_ID,
+        siteId: envVars.SITE_ID,
+        pwd: envVars.PASSWORD
     }
 }
 const datasUsed = []
@@ -177,39 +186,37 @@ async function getToken () {
 }
 
 async function getProduct(objectToGet) {
-    await axios.get(`https://api.onestock-retail.com/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"sport2000","filters":{"sales_channels":["sport2000"]},"site_id":"c580","token":"${objectToGet.token}"}=`)
+    await axios.get(`${envVars.BASE_URL}/items?{"item_ids":["${objectToGet.articleId}"],"lang":"fr","sales_channel":"${envVars.SALES_CHANNEL}","filters":{"sales_channels":["${envVars.SALES_CHANNEL}"]},"site_id":"${envVars.SITE_ID}","token":"${objectToGet.token}"}=`)
     .then(response => {
         const items =  response.data.items.map(item => {
             return {
-                id: item.id,
-                name: item.features.fr.name,
-                marque: item.features.fr.marque,
-                prixAchat: item.features.fr.prix_achat,
-                prixNet: item.features.fr.prix_net,
-                pvc: item.features.fr.pvc
+                id: item.id || "",
+                name: item.features.fr.name || "",
+                marque: item.features.fr.marque || "",
+                prixAchat: item.features.fr.prix_achat || "",
+                prixNet: item.features.fr.prix_net || "",
+                pvc: item.features.fr.pvc || ""
             }
         })
         console.log(items)
         fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " Order number is :    " + objectToGet.commandeId + "\r\n")
         fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " Order taken is :    " + JSON.stringify(items) + "\r\n")
-    }).catch(errorGettingProduct => console.log("error wesh" + errorGettingProduct))
+    }).catch(errorGettingProduct => {
+        console.log("error wesh" + errorGettingProduct)
+    })
 }
 
 async function prepareOrder(response) {
     const respIds = response.line_item_ids // e.g. ["652ac0a679f169b03453816f"]
     if(datasUsed.find(data => data == response.id)) {
         datasUsed.push(response.id)
-	console.log('new commande')
     }
     const logs = {
         commandeId: response.id,
         articleId: response.line_items[0].item_id,
         token: requestsDatas.sessionVars.token
     }
-
-//    console.log("On doit preparer quelque chose, id article : ")
-    //console.log(logs.commandeId)
-    //refreshVarsToPatch(respIds)
+    
     await axios.patch(`${requestsDatas.baseUrl}/line_items`, {
         "endpoint_id": requestsDatas.prepareOrderBody.endpoint_id,
         "user_id": requestsDatas.prepareOrderBody.user_id,
@@ -217,7 +224,6 @@ async function prepareOrder(response) {
         "site_id": requestsDatas.prepareOrderBody.site_id,
         "token": requestsDatas.sessionVars.token
     }).then(async respTakenOrder => {
-        //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order Prepared :" + respTakenOrder + "\r\n")
         console.log('Order Prepared') 
         getProduct(logs)
     }).catch(err => {
@@ -236,7 +242,6 @@ async function getOrders() {
         await axios.get(`${requestsDatas.baseUrl}/multi/orders`, {
             data: requestsDatas.getOrdersBody
         }).then(response => {
-            //console.log(response.data.map(body => body.response))
             const responseMap = response.data.map(body => body.response)
             responseMap.forEach(el => {
                 if(el.length > 0) { // on a qqch dans l'objet
@@ -261,7 +266,7 @@ async function getOrders() {
 
                 getToken()
             } else {
-                if(err.config && (err.config.url == 'https://api.onestock-retail.com/multi/orders' || err.config.url == 'https://api.onestock-retail.com/login' || err.cause == 'getaddrinfo')) {
+                if(err.config && (err.config.url == `${envVars.BASE_URL}/multi/orders` || err.config.url == `${envVars.BASE_URL}/login` || err.cause == 'getaddrinfo')) {
                 fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Error3 : server refused connection \r\n")
                     
                 getToken()
