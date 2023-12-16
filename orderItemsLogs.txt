@@ -1,24 +1,157 @@
-18:16 [{"id":"0888407233913","description":["3 paires de chaussettes Unisexe Nike U NK EVERYDAY CUSH CREW 3PR Multicolore en vente à prix attractif chez Sport 2000 et S 2"],"name":["3 paires de chaussettes Unisexe U NK EVERYDAY CUSH CREW 3PR Multicolore"],"marque":["NIKE"],"prixAchat":["5.85"],"prixNet":["11.99"],"pvc":["11.99"]}]
-18:59 Order taken is :    [{"id":"0195871642258","description":["Envolez-vous vers le panier et le succès. Arpentez la ville ou le terrain avec le pantalon en tissu Fleece Jordan Sport. Son tissu Fleece Dri-FIT léger est fabriqué avec au moins 75 % de matières recyclées pour vous permettre de rester au sec et de bénéficier d'un maximum de confort en toutes circonstances.Ses coutures sont inspirées de la veste Wings originale pour une touche rétro.Le tissu en molleton léger est brossé à l'intérieur pour plus de douceur.Les chevilles côtelées et le gousset latéral sont extensibles pour vous permettre de bouger librement.Les poches à zip vous permettent de ranger de petits objets en toute sécurité."],"name":["Pantalon de survetement Homme M J DF SPRT CSVR FLC PANT Gris"],"marque":["NIKE"],"prixAchat":["35.0"],"prixNet":["69.99"],"pvc":["69.99"]}]
-19:37 Order taken is :    [{"id":"0195871629747","description":["Nike Sportswear<br />Big Kids' T-Shirt<br /><b>CONFORT DÉCONTRACTÉ.</b><br />La preuve qu'un classique peut rester tendance. Le tee-shirt Nike Sportswear est un incontournable de votre garde-robe hebdomadaire. La question est : quelle couleur choisir ?<br /><br />Tissu en coton doux et léger pour un confort optimal au quotidien.<br />Col côtelé extensible permettant un enfilage et un retrait faciles.<br />Logo brodé pour afficher votre amour du Swoosh.<br /><br />"],"name":["T-shirt manches courtes Enfant plus âgé B NSW TEE EMB FUTURA Bleu"],"marque":["NIKE"],"prixAchat":["9.0"],"prixNet":["17.99"],"pvc":["17.99"]}]
-20:3 Order taken is :    [{"id":"0196968305773","description":["UN ESSENTIEL QUI VOUS PERMET D'EN FAIRE DAVANTAGE.Les sweat-shirts Club Fleece, universellement appréciés pour leur confort et leur durabilité, sont destinés à toutes et à tous. Indispensable par temps froid, ce modèle facile à superposer est un incontournable, à associer à votre veste préférée ou à porter à la maison.Doublé pour plus de confortLa capuche à trois empiècements est doublée en jersey pour une sensation de douceur.Club Fleece pour la victoireLe Club Fleece, notre tissu Fleece le plus plébiscité, offre une sensation de confort et une tenue parfaite que vous pourrez apprécier encore et encore. Brossé pour plus de chaleur et de douceur, il est parfait pour affronter le froid.Côtes pour une tenue qui reste en placePoignets et ourlet côtelés maintenant le sweat à capuche en place lorsque vous bougez."],"name":["Sweat à capuche manches longues Femme W NSW CLUB FLC STD PO HDY Rose"],"marque":["NIKE"],"prixAchat":["32.5"],"prixNet":["64.99"],"pvc":["64.99"]}]
-21:6 Order taken is :    [{"id":"0196968174348","description":["La Borough est le modèle idéal pour démarrer la journée sur le bon pied. Taillée pour le long terme, cette légende revisitée utilise une combinaison de matières recyclées sur l'empeigne et la semelle extérieure pour donner un nouveau souffle à un look classique. La pointe et le milieu du pied retravaillés offrent une plus grande liberté de mouvement. Vos enfants pourront continuer à s'amuser, quelle que soit la météo."],"name":["Chaussures Enfant COURT BOROUGH LOW RECRAFT (PS) Noir"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
-11:28 Order taken is :    [{"id":"2005773154866","description":["Tailles homme : du 41 ½ au 46 ½.L'amorti DynaSoft assure une foulée souple et dynamique."],"name":["CHAUSSURES TRAIL SHANDO HOMME"],"marque":["NEW BALANCE"],"prixAchat":["32.8"],"prixNet":["95.0"],"pvc":["95.0"]}]
-11:58 Order taken is :    [{"id":"4065451518067","description":["Taille élastique extensible. Coupe ajustée. Du 116 au 164."],"name":["LEGGING FILLE - G GRLS LEG"],"marque":["PUMA"],"prixAchat":["11.22"],"prixNet":["23.0"],"pvc":["23.0"]}]
-12:45 Order taken is :    [{"id":"2005773246462","description":["Short Homme Select PLAYER GEO S/S Noir en vente à prix attractif chez Sport 2000Taille élastique et cordon de serrage. Bandes thermocollées sur les côtés. Insert en mesh. Matière assurant un séchage rapide de la transpiration."],"name":["Short Homme PLAYER GEO S/S Noir"],"marque":["SELECT"],"prixAchat":["6.25"],"prixNet":["25.0"],"pvc":["25.0"]}]
-13:18 Order taken is :    [{"id":"4066756728816","description":["Une chaussure de football confortable pour un jeu rapide, conçue en partie à base de matières recyclées.Le match est fermé et le chrono tourne. À toi de changer le cours du jeu. Encore et encore. Fais douter tes adversaires à chaque geste. Libère ta vitesse avec l'adidas X Crazyfast. La semelle extérieure polyvalente de cette chaussure de football booste la rapidité sur terrain souple, dur et synthétique. Douce et résistante, la tige textile enduite te procure un toucher de balle exceptionnel quand tu dribbles à pleine vitesse.  La tige est confectionnée en matériaux recyclés à hauteur de 50 % minimum. Ce produit ne constitue qu'une de nos solutions pour lutter contre les déchets plastiques."],"name":["Crampons de football Unisexe X CRAZYFAST.4 FXG Blanc"],"marque":["ADIDAS"],"prixAchat":["30.0"],"prixNet":["60.0"],"pvc":["60.0"]}]
-16:2 Order taken is :    [{"id":"4060979047761","description":["Chaussures mode femme PUMA WNS VIKKY V2 Noir en vente à prix attractif chez SPORT 2000"],"name":["Chaussures mode femme WNS VIKKY V2 Noir"],"marque":["PUMA"],"prixAchat":["28.21"],"prixNet":["55.0"],"pvc":["55.0"]}]
-16:3 Order taken is :    [{"id":"3468336855928","description":["Maillot de natation Femme Arena WOMEN S ARENA SOLID SWIMSUIT CONTROL PRO BACK B Noir en vente à prix attractif chez Sport 2000"],"name":["Maillot de natation Femme WOMEN S ARENA SOLID SWIMSUIT CONTROL PRO BACK B Noir"],"marque":["ARENA"],"prixAchat":["17.14"],"prixNet":["36.0"],"pvc":["36.0"]}]
-16:26 Order taken is :    [{"id":"0196152309921","description":["Nike Air Max SC<br />Big Kids' Shoe<br /><b>DE L'AIR TOUT AU LONG DE LA JOURNÉE.</b><br />Simple, confortable et dotée d'un amorti Air, la Nike Air Max SC est le modèle idéal. Le mélange de textures crée un modèle léger et durable que vous pouvez porter tous les jours, toute la journée.<br /><br /><b>Design multidimensionnel</b><br />L'association du cuir, du tissu et du mesh offre une conception longue durée, respirante et confortable à porter toute la journée.<br /><b>Résolument Air</b><br />L'unité Max Air et la mousse souple offrent un amorti léger à chaque pas.<br /><b>Meilleur contrôle</b><br />La semelle en caoutchouc assure une adhérence et une durabilité optimales aux endroits stratégiques.<br /><br />"],"name":["Chaussure basse Enfant NIKE AIR MAX SC (GS) Noir"],"marque":["NIKE"],"prixAchat":["37.5"],"prixNet":["74.99"],"pvc":["74.99"]}]
-17:50 Order taken is :    [{"id":"0196604430296","description":["Chaussures de basketball Homme Nike GIANNIS IMMORTALITY 2 Noir en vente à prix attractif chez Sport 2000"],"name":["Chaussures de basketball Homme GIANNIS IMMORTALITY 2 Noir"],"marque":["NIKE"],"prixAchat":["42.5"],"prixNet":["84.99"],"pvc":["84.99"]}]
-19:29 Order taken is :    [{"id":"5059431389562","description":["Chaussures de trail Homme Mizuno WAVE DAICHI 7 Noir en vente à prix attractif chez Sport 2000"],"name":["Chaussures de trail Homme WAVE DAICHI 7 Noir"],"marque":["MIZUNO"],"prixAchat":["71.79"],"prixNet":["140.0"],"pvc":["140.0"]}]
-19:41 Order taken is :    [{"id":"2005773248046","description":["Veste avec ourlet et poignets élastiqués. Pantalon avec taille élastique et cordon de serrage."],"name":["SURVÊTEMENT HOMME"],"marque":["SERGIO TACCHINI"],"prixAchat":["60.0"],"prixNet":["119.99"],"pvc":["119.99"]}]
-20:12 Order taken is :    [{"id":"3606804402315","description":["T-shirt Manches Courtes Homme Le coq sportif ESS TEE SS N3 M Bleu en vente à prix attractif chez Sport 2000"],"name":["T-shirt Manches Courtes Homme ESS TEE SS N3 M Bleu"],"marque":["LE COQ SPORTIF"],"prixAchat":["16.0"],"prixNet":["32.0"],"pvc":["32.0"]}]
-13:9 Order taken is :    [{"id":"4028460120591","description":["Inspirée d’un modèle football iconique, la Kaiser 5 continue de s'imposer sur le terrain avec son look classique et sa conception de qualité. Avec sa tige en cuir pleine fleur pour un chaussant ajusté, cette chaussure de football assure un contrôle optimal du ballon. La semelle de propreté en mousse garantit un excellent amorti.<br><br>Douceur et confort<br>La tige en cuir pleine fleur assure un toucher optimal et un chaussant naturel.<br><br>Amorti et confort<br>La semelle de propreté en EVA découpé allie confort et légèreté.<br><br>Accroche sur terrain gras<br>La semelle extérieure en TPU possède des crampons vissés pour un grip exceptionnel sur terrains gras et très gras naturels."],"name":["Chaussures de football homme KAISER 5 CUP Noir"],"marque":["ADIDAS"],"prixAchat":["50.0"],"prixNet":["100.0"],"pvc":["100.0"]}]
-13:40 Order taken is :    [{"id":"0196605454024","description":["Tissu antitranspiration. Technologie Dri-FIT évacuant la transpiration pour rester au sec."],"name":["MAILLOT PARIS SAINT-GERMAIN DOMICILE Enfant plus agé\r\n"],"marque":["NIKE"],"prixAchat":["37.5"],"prixNet":["74.99"],"pvc":["74.99"]}]
-15:18 Order taken is :    [{"id":"4550456094130","description":["Tige en mesh imperméabilisé. Semelle intermédiaire en EVA. Semelle extérieure en caoutchouc crantée. Semelle crantée pour une adhérence accrue sur les chemins boueux."],"name":["CHAUSSURES TRAIL GEL-VENTURE 9 WP FEMME\r\n"],"marque":["ASICS"],"prixAchat":["47.5"],"prixNet":["95.0"],"pvc":["95.0"]}]
-16:56 Order taken is :    [{"id":"3606804404258","description":["Pantalon long Homme Le coq sportif ESS PANT SLIM N 2 M Noir en vente à prix attractif chez Sport 2000"],"name":["Pantalon long Homme ESS PANT SLIM N 2 M Noir"],"marque":["LE COQ SPORTIF"],"prixAchat":["34.5"],"prixNet":["69.0"],"pvc":["69.0"]}]
-17:20 Order taken is :    [{"id":"0196604445115","description":["Chaussures de running Femme Nike W AIR ZOOM PEGASUS 40 PRM Rose en vente à prix attractif chez Sport 2000"],"name":["Chaussures de running Femme W AIR ZOOM PEGASUS 40 PRM Rose"],"marque":["NIKE"],"prixAchat":["67.5"],"prixNet":["134.99"],"pvc":["134.99"]}]
-17:27 Order taken is :    [{"id":"0196604445115","description":["Chaussures de running Femme Nike W AIR ZOOM PEGASUS 40 PRM Rose en vente à prix attractif chez Sport 2000"],"name":["Chaussures de running Femme W AIR ZOOM PEGASUS 40 PRM Rose"],"marque":["NIKE"],"prixAchat":["67.5"],"prixNet":["134.99"],"pvc":["134.99"]}]
-17:42 Order taken is :    [{"id":"2005773246424","description":["MAILLOT Homme Select PLAYER SHIRT GEO S/S Noir en vente à prix attractif chez Sport 2000Bandes thermocollées sur les épaules. Motifs sublimés multicolores sur le devant. Matière assurant un séchage rapide de la transpiration."],"name":["MAILLOT Homme PLAYER SHIRT GEO S/S Noir"],"marque":["SELECT"],"prixAchat":["8.75"],"prixNet":["30.0"],"pvc":["30.0"]}]
-19:22 Order taken is :    [{"id":"2005773242488","description":["Capuche réglable avec cordon et stoppers. 2 poches avant et 1 poche poitrine zippées. Matière Sherpa chaude et douce au toucher."],"name":["Veste Homme BLOUSON SHERPA H Beige"],"marque":["REDSKINS"],"prixAchat":["75.96"],"prixNet":["189.9"],"pvc":["189.9"]}]
+
+22:22 Order number is :    WEBP000142087
+22:22 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+23:5 Order number is :    WEBP000142132
+23:5 Order taken is :    [{"id":"4064535426717","name":["Legging Femme W HER HW Noir"],"marque":["PUMA"],"prixAchat":["14.63"],"prixNet":["30.0"],"pvc":["30.0"]}]
+5:13 Order number is :    WEBP000142187
+5:13 Order taken is :    [{"id":"0196968491520","name":["Sweat à capuche manches longues Enfant G NSW CLUB FLC CRP HDY HBR Rose"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+6:38 Order number is :    WEBP000142193
+6:38 Order taken is :    [{"id":"5715431280260","name":["JCOOTIS PUFFER SN"],"marque":["JACK AND JONES"],"prixAchat":["25.49"],"prixNet":["69.99"],"pvc":["69.99"]}]
+7:37 Order number is :    WEBP000142211
+7:37 Order taken is :    [{"id":"0194979031346","name":["BALLON NBA DRV PLUS BSKT SZ7 UNISEXE ORANGE"],"marque":["WILSON"],"prixAchat":["12.5"],"prixNet":["24.95"],"pvc":["24.95"]}]
+9:49 Order number is :    WEBP000142287
+9:49 Order taken is :    [{"id":"4065426691160","name":["Chaussure basse Homme NOVA COURT Blanc"],"marque":["ADIDAS"],"prixAchat":["40.0"],"prixNet":["80.0"],"pvc":["80.0"]}]
+10:2 Order number is :    WEBP000142300
+10:2 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+10:33 Order number is :    WEBP000142324
+10:33 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+10:41 Order number is :    WEBP000141893
+10:41 Order taken is :    [{"id":"4066762310050","name":["Pantalon de survetement Homme M 3S FL TC PT Noir"],"marque":["ADIDAS"],"prixAchat":["23.85"],"prixNet":["50.0"],"pvc":["50.0"]}]
+11:0 Order number is :    WEBP000141277
+11:0 Order taken is :    [{"id":"3606804914993","name":["Pantalon de survetement Unisexe PANT REGULAR N1 M Bleu"],"marque":["LE COQ SPORTIF"],"prixAchat":["39.5"],"prixNet":["79.0"],"pvc":["79.0"]}]
+11:7 Order number is :    WEBP000142356
+11:7 Order taken is :    [{"id":"0196970092968","name":["Chaussures Homme NIKE COURT VISION MID NN AF Bleu"],"marque":["NIKE"],"prixAchat":["45.0"],"prixNet":["89.99"],"pvc":["89.99"]}]
+11:9 Order number is :    WEBP000142359
+11:9 Order taken is :    [{"id":"0196153977891","name":["T-shirt manches courtes Enfant G NSW TEE CROP FUTURA Blanc"],"marque":["NIKE"],"prixAchat":["11.21"],"prixNet":["22.99"],"pvc":["22.99"]}]
+11:20 Order number is :    WEBP000142367
+11:20 Order taken is :    [{"id":"0192828440400","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+11:25 Order number is :    WEBP000142370
+11:25 Order taken is :    [{"id":"0195751330152","name":["Masque de ski Enfant LUMI ACCESS CAT 2 Noir"],"marque":["SALOMON"],"prixAchat":["20.51"],"prixNet":["40.0"],"pvc":["40.0"]}]
+11:28 Order number is :    WEBP000142371
+11:28 Order taken is :    [{"id":"0195866422674","name":["W NK DF NIKE ONE HOOK WBN FEMME"],"marque":["NIKE"],"prixAchat":["14.63"],"prixNet":["29.99"],"pvc":["29.99"]}]
+11:51 Order number is :    WEBP000142390
+11:51 Order taken is :    [{"id":"0192828440400","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+12:12 Order number is :    WEBP000142408
+12:12 Order taken is :    [{"id":"0196152596628","name":["Gant de gardien Football Enfant Y NK ACDMY THERMAFIT - HO22 Noir"],"marque":["NIKE"],"prixAchat":["9.75"],"prixNet":["19.99"],"pvc":["19.99"]}]
+13:47 Order number is :    WEBP000142479
+13:47 Order taken is :    [{"id":"0196607046531","name":["Sweat à capuche Enfant K NSW CLUB FLC HDY LBR Vert"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+14:18 Order number is :    WEBP000142137
+14:18 Order taken is :    [{"id":"5715418458927","name":["ONPSMILA SS ND TRAIN TOP"],"marque":["ONLY PLAY"],"prixAchat":["9.64"],"prixNet":["26.99"],"pvc":["26.99"]}]
+14:39 Order number is :    WEBP000142531
+14:39 Order taken is :    [{"id":"0195019178670","name":["Chaussures Unisexe CITE Noir"],"marque":["CATERPILLAR"],"prixAchat":["50.0"],"prixNet":["120.0"],"pvc":["120.0"]}]
+15:18 Order number is :    WEBP000142573
+15:18 Order taken is :    [{"id":"0888407233876","name":["3 paires de chaussettes unisexe EVERYDAY CUSHIONED TRAINING CR Blanc"],"marque":["NIKE"],"prixAchat":["9.0"],"prixNet":["17.99"],"pvc":["17.99"]}]
+16:42 Order number is :    WEBP000142649
+16:42 Order taken is :    [{"id":"0196249176337","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+17:28 Order number is :    WEBP000142684
+17:28 Order taken is :    [{"id":"2005773268051","name":["PULL HOMME COL V COTON et LAINE Bleu"],"marque":["MCS"],"prixAchat":["31.8"],"prixNet":["95.0"],"pvc":["95.0"]}]
+17:30 Order number is :    WEBP000142683
+17:30 Order taken is :    [{"id":"0196607242940","name":["Pantalon de survetement Enfant K NSW CLUB FLC CRGO PNT LBR Vert"],"marque":["NIKE"],"prixAchat":["25.0"],"prixNet":["49.99"],"pvc":["49.99"]}]
+17:32 Order number is :    WEBP000142692
+17:32 Order taken is :    [{"id":"0196968174348","name":["Chaussures Enfant COURT BOROUGH LOW RECRAFT (PS) Noir"],"marque":["NIKE"],"prixAchat":["25.0"],"prixNet":["49.99"],"pvc":["49.99"]}]
+17:51 Order number is :    WEBP000142710
+17:51 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+17:54 Order number is :    WEBP000142718
+17:54 Order taken is :    [{"id":"3666424188143","name":["Polo manches courtes Homme CLASSIC POLO MC Beige"],"marque":["BENSON AND CHERRY"],"prixAchat":["13.0"],"prixNet":["32.99"],"pvc":["32.99"]}]
+18:1 Order number is :    WEBP000142134
+18:1 Order taken is :    [{"id":"7613417907713","name":["Ceinture Unisexe WOMEN S REVERSIBLE BELT Noir"],"marque":["LEVI'S"],"prixAchat":["16.67"],"prixNet":["40.0"],"pvc":["40.0"]}]
+18:26 Order number is :    WEBP000142759
+18:26 Order taken is :    [{"id":"0194955972335","name":["sweatshirt Enfant plus âgé G NSW CLUB FLC FZ HOODIE LBR Noir"],"marque":["NIKE"],"prixAchat":["24.39"],"prixNet":["49.99"],"pvc":["49.99"]}]
+18:37 Order number is :    WEBP000142644
+18:37 Order taken is :    [{"id":"4065418861045","name":["Pantalon Enfant ENT22 TR PNT Y Noir"],"marque":["ADIDAS"],"prixAchat":["14.3"],"prixNet":["30.0"],"pvc":["30.0"]}]
+18:43 Order number is :    WEBP000142779
+18:43 Order taken is :    [{"id":"2005773091598","name":["Bonnet Femme PCPALINA HOOD FC Noir"],"marque":["PIECES"],"prixAchat":["3.89"],"prixNet":["11.99"],"pvc":["11.99"]}]
+19:3 Order number is :    WEBP000142811
+19:3 Order taken is :    [{"id":"2005773268662","name":["Pantalon de survetement Femme MINIMAL GOLD PANT Beige"],"marque":["PUMA"],"prixAchat":["26.83"],"prixNet":["55.0"],"pvc":["55.0"]}]
+19:30 Order number is :    WEBP000142843
+19:30 Order taken is :    [{"id":"0196249176146","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+19:54 Order number is :    WEBP000142879
+19:54 Order taken is :    [{"id":"0196968940691","name":["Gants de football Enfant NK GK MATCH JR - HO23 Blanc"],"marque":["NIKE"],"prixAchat":["11.5"],"prixNet":["22.99"],"pvc":["22.99"]}]
+20:12 Order number is :    WEBP000142893
+20:12 Order taken is :    [{"id":"0196249176481","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+1:39 Order number is :    WEBP000143156
+1:39 Order taken is :    [{"id":"3608016318491","name":["Veste blazer velours femme Femme VESTE Beige"],"marque":["SUN VALLEY"],"prixAchat":["28.0"],"prixNet":["69.99"],"pvc":["69.99"]}]
+4:35 Order number is :    WEBP000143158
+4:35 Order taken is :    [{"id":"5715429541427","name":["VMCALACINDY SS22 COAT GA LCS"],"marque":["VERO MODA"],"prixAchat":["23.33"],"prixNet":["69.99"],"pvc":["69.99"]}]
+6:51 Order number is :    WEBP000143168
+6:51 Order taken is :    [{"id":"3662968017857","name":["Gant de boxe Unisexe GANT MMA Noir"],"marque":["METAL BOXE"],"prixAchat":["18.66"],"prixNet":["39.99"],"pvc":["39.99"]}]
+7:48 Order number is :    WEBP000143189
+7:48 Order taken is :    [{"id":"0193154884906","name":["Polo homme M NSW SPE POLO MATCHUP PQ Gris"],"marque":["NIKE"],"prixAchat":["17.5"],"prixNet":["34.99"],"pvc":["34.99"]}]
+8:16 Order number is :    WEBP000143203
+8:16 Order taken is :    [{"id":"0196249176146","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+9:24 Order number is :    WEBP000143259
+9:24 Order taken is :    [{"id":"0196153733008","name":["Chaussures de sport Femme W NIKE MC TRAINER 2 Gris"],"marque":["NIKE"],"prixAchat":["37.5"],"prixNet":["74.99"],"pvc":["74.99"]}]
+9:29 Order number is :    WEBP000143254
+9:29 Order taken is :    [{"id":"0196969909277","name":["Sweat à capuche Enfant B NSW SI FLC PO HOODIE BB Gris"],"marque":["NIKE"],"prixAchat":["25.0"],"prixNet":["49.99"],"pvc":["49.99"]}]
+9:29 Order number is :    WEBP000142645
+9:29 Order taken is :    [{"id":"3606804851229","name":["T-shirt manches courtes Femme ESS TEE SS COL V N2 W Bleu"],"marque":["LE COQ SPORTIF"],"prixAchat":["15.0"],"prixNet":["30.0"],"pvc":["30.0"]}]
+9:54 Order number is :    WEBP000143285
+9:54 Order taken is :    [{"id":"0196968174317","name":["Chaussures Enfant COURT BOROUGH LOW RECRAFT (PS) Noir"],"marque":["NIKE"],"prixAchat":["25.0"],"prixNet":["49.99"],"pvc":["49.99"]}]
+10:1 Order number is :    WEBP000143290
+10:1 Order taken is :    [{"id":"3606804914900","name":["Sweat à capuche Unisexe HOODY N1 M Orange"],"marque":["LE COQ SPORTIF"],"prixAchat":["44.5"],"prixNet":["89.0"],"pvc":["89.0"]}]
+10:38 Order number is :    WEBP000143316
+10:38 Order taken is :    [{"id":"0196249176337","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+10:54 Order number is :    WEBP000143337
+10:54 Order taken is :    [{"id":"0196249176481","name":["Doudoune manches longues Femme W CANYONLANDS HYBRID JACKETW CANYONLANDS HYBRID J"],"marque":["THE NORTH FACE"],"prixAchat":["69.8"],"prixNet":["150.0"],"pvc":["150.0"]}]
+10:56 Order number is :    WEBP000142972
+10:56 Order taken is :    [{"id":"0196148173260","name":["PANTALON ENTRAÎNEMENT FRANCE ADULTE\r\n"],"marque":["NIKE"],"prixAchat":["32.5"],"prixNet":["64.99"],"pvc":["64.99"]}]
+10:57 Order number is :    WEBP000143339
+10:57 Order taken is :    [{"id":"0196968494538","name":["Sweat à capuche manche longue Enfant K NSW CLUB FLC HDY HBR Orange"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+11:18 Order number is :    WEBP000143353
+11:18 Order taken is :    [{"id":"2005773246820","name":["Sweat à capuche Homme JOCKER Noir"],"marque":["HELVETICA"],"prixAchat":["38.0"],"prixNet":["89.0"],"pvc":["89.0"]}]
+12:41 Order number is :    WEBP000143423
+12:41 Order taken is :    [{"id":"0196148175011","name":["HAUT ENTRAINEMENT FRANCE Enfant plus âgé"],"marque":["NIKE"],"prixAchat":["27.5"],"prixNet":["54.99"],"pvc":["54.99"]}]
+13:1 Order number is :    WEBP000143442
+13:1 Order taken is :    [{"id":"0196148172232","name":["T-shirt manches courtes de football Homme FFF M NK DF STRK SS TOP K Blanc France"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+13:59 Order number is :    WEBP000143502
+13:59 Order taken is :    [{"id":"0195244773862","name":["Sacs de sport Unisexe NK BRSLA XS DUFF - 9.5 (25L) Noir"],"marque":["NIKE"],"prixAchat":["17.5"],"prixNet":["34.99"],"pvc":["34.99"]}]
+15:0 Order number is :    WEBP000143578
+15:0 Order taken is :    [{"id":"3660773655158","name":["T-shirt Homme SB C NET TEE LL Bleu"],"marque":["UMBRO"],"prixAchat":["5.5"],"prixNet":["10.99"],"pvc":["10.99"]}]
+15:0 Order number is :    WEBP000142835
+15:0 Order taken is :    [{"id":"0193146072946","name":["Top de running homme M NK PACER TOP HZ Noir"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+15:22 Order number is :    WEBP000143605
+15:22 Order taken is :    [{"id":"3665957209363","name":["T-shirt Homme T-SHIRT Noir"],"marque":["PROJECT X PARIS"],"prixAchat":["10.0"],"prixNet":["29.99"],"pvc":["29.99"]}]
+16:50 Order number is :    WEBP000143644
+16:50 Order taken is :    [{"id":"0196968938537","name":["Gants de foootball Unisexe NK ACDMY THERMAFIT - HO22 Noir"],"marque":["NIKE"],"prixAchat":["12.5"],"prixNet":["24.99"],"pvc":["24.99"]}]
+17:5 Order number is :    WEBP000143692
+17:5 Order taken is :    [{"id":"0194497882499","name":["Claquettes Homme NIKE VICTORI ONE SLIDE Noir"],"marque":["NIKE"],"prixAchat":["16.5"],"prixNet":["32.99"],"pvc":["32.99"]}]
+17:37 Order number is :    WEBP000143720
+17:37 Order taken is :    [{"id":"3606804699715","name":["Sweatshirt manches longues Homme ESS CREW SWEAT N 3 M Bleu"],"marque":["LE COQ SPORTIF"],"prixAchat":["32.5"],"prixNet":["65.0"],"pvc":["65.0"]}]
+17:39 Order number is :    WEBP000143726
+17:39 Order taken is :    [{"id":"3660773655158","name":["T-shirt Homme SB C NET TEE LL Bleu"],"marque":["UMBRO"],"prixAchat":["5.5"],"prixNet":["10.99"],"pvc":["10.99"]}]
+17:42 Order number is :    WEBP000143728
+17:42 Order taken is :    [{"id":"0196968938551","name":["Gants de foootball Unisexe NK ACDMY THERMAFIT - HO22 Noir"],"marque":["NIKE"],"prixAchat":["12.5"],"prixNet":["24.99"],"pvc":["24.99"]}]
+17:48 Order number is :    WEBP000143736
+17:48 Order taken is :    [{"id":"2005773266941","name":["TEE SHIRT MANCHES COURTES HOMME Noir"],"marque":["OXBOW"],"prixAchat":["12.5"],"prixNet":["29.99"],"pvc":["29.99"]}]
+18:17 Order number is :    WEBP000143772
+18:17 Order taken is :    [{"id":"4065427714158","name":["Chaussures Femme COURT SILK Blanc"],"marque":["ADIDAS"],"prixAchat":["32.5"],"prixNet":["65.0"],"pvc":["65.0"]}]
+18:50 Order number is :    WEBP000143807
+18:50 Order taken is :    [{"id":"0196970090148","name":["Chaussures Homme NIKE COURT VISION MID NN AF Bleu"],"marque":["NIKE"],"prixAchat":["45.0"],"prixNet":["89.99"],"pvc":["89.99"]}]
+18:53 Order number is :    WEBP000143624
+18:53 Order taken is :    [{"id":"3700516269836","name":["PORTE-CLÉS FFF"],"marque":["FFF"],"prixAchat":["2.15"],"prixNet":["4.5"],"pvc":["4.5"]}]
+19:0 Order number is :    WEBP000143819
+19:0 Order taken is :    [{"id":"2005773268679","name":["Pantalon de survetement Femme MINIMAL GOLD PANT Beige"],"marque":["PUMA"],"prixAchat":["26.83"],"prixNet":["55.0"],"pvc":["55.0"]}]
+19:33 Order number is :    WEBP000143861
+19:33 Order taken is :    [{"id":"0196969690380","name":["Pantalon de survetement Enfant CR7 K CLUB FLC JGGR Noir"],"marque":["NIKE"],"prixAchat":["27.5"],"prixNet":["54.99"],"pvc":["54.99"]}]
+20:31 Order number is :    WEBP000143906
+20:31 Order taken is :    [{"id":"0196607046531","name":["Sweat à capuche Enfant K NSW CLUB FLC HDY LBR Vert"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+20:35 Order number is :    WEBP000143915
+20:35 Order taken is :    [{"id":"0196605449877","name":["MAILLOT PARIS SAINT-GERMAIN DOMICILE HOMME\r\n"],"marque":["NIKE"],"prixAchat":["47.5"],"prixNet":["94.99"],"pvc":["94.99"]}]
+21:50 Order number is :    WEBP000143996
+21:50 Order taken is :    [{"id":"0196152596628","name":["Gant de gardien Football Enfant Y NK ACDMY THERMAFIT - HO22 Noir"],"marque":["NIKE"],"prixAchat":["9.75"],"prixNet":["19.99"],"pvc":["19.99"]}]
+21:58 Order number is :    WEBP000144005
+21:58 Order taken is :    [{"id":"2005773266460","name":["Veste sans manche Femme MILLIE Marron"],"marque":["DEELUXE"],"prixAchat":["24.0"],"prixNet":["59.99"],"pvc":["59.99"]}]
+22:8 Order number is :    WEBP000144017
+22:8 Order taken is :    [{"id":"5714911048581","name":["Bottines Femme ONLBOLD-4 PU LACE UP BOOT NOOS Noir"],"marque":["ONLY"],"prixAchat":["22.22"],"prixNet":["59.99"],"pvc":["59.99"]}]
+22:11 Order number is :    WEBP000144021
+22:11 Order taken is :    [{"id":"0196148172591","name":["T-shirt manches longues de football Homme FFF M NK DF STRK DRILTOP K Blanc"],"marque":["NIKE"],"prixAchat":["32.5"],"prixNet":["64.99"],"pvc":["64.99"]}]
+22:40 Order number is :    WEBP000144035
+22:40 Order taken is :    [{"id":"0195242836064","name":["Chaussure de running Femme W NIKE REVOLUTION 6 NN Noir"],"marque":["NIKE"],"prixAchat":["30.0"],"prixNet":["59.99"],"pvc":["59.99"]}]
+7:36 Order number is :    WEBP000144100
+7:36 Order taken is :    [{"id":"3570037207651","name":["VESTE SOFTSHELL Homme Noir"],"marque":["AULP"],"prixAchat":["31.5"],"prixNet":["95.0"],"pvc":["95.0"]}]
+8:58 Order number is :    WEBP000144133
+8:58 Order taken is :    [{"id":"2005773266798","name":["CHEMISE MANCHES LONGUES HOMME Bleu"],"marque":["OXBOW"],"prixAchat":["22.91"],"prixNet":["54.99"],"pvc":["54.99"]}]
+10:52 Order number is :    WEBP000144223
+10:52 Order taken is :    [{"id":"2005773156198","name":["SWEAT CAPUCHE ZIPPÉ HOMME\r\n"],"marque":["FFF"],"prixAchat":["24.7"],"prixNet":["55.0"],"pvc":["55.0"]}]
+11:13 Order number is :    WEBP000144241
+11:13 Order taken is :    [{"id":"0196969181857","name":["Chaussures de trail Femme WMNS NIKE JUNIPER TRAIL 2 NN Violet"],"marque":["NIKE"],"prixAchat":["45.0"],"prixNet":["89.99"],"pvc":["89.99"]}]

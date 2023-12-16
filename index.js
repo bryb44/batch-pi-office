@@ -182,7 +182,6 @@ async function getProduct(objectToGet) {
         const items =  response.data.items.map(item => {
             return {
                 id: item.id,
-                description: item.features.fr.description,
                 name: item.features.fr.name,
                 marque: item.features.fr.marque,
                 prixAchat: item.features.fr.prix_achat,
@@ -191,16 +190,16 @@ async function getProduct(objectToGet) {
             }
         })
         console.log(items)
+        fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " Order number is :    " + objectToGet.commandeId + "\r\n")
         fs.appendFileSync('orderItemsLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + " Order taken is :    " + JSON.stringify(items) + "\r\n")
     }).catch(errorGettingProduct => console.log("error wesh" + errorGettingProduct))
 }
 
 async function prepareOrder(response) {
     const respIds = response.line_item_ids // e.g. ["652ac0a679f169b03453816f"]
-    if(datasUsed.find(data => data = response.id).length == 0) {
+    if(datasUsed.find(data => data == response.id)) {
         datasUsed.push(response.id)
-    } else {
-        fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order already Prepared :" + response.id + "\r\n")
+	console.log('new commande')
     }
     const logs = {
         commandeId: response.id,
@@ -209,7 +208,7 @@ async function prepareOrder(response) {
     }
 
 //    console.log("On doit preparer quelque chose, id article : ")
-    console.log(logs.commandeId)
+    //console.log(logs.commandeId)
     //refreshVarsToPatch(respIds)
     await axios.patch(`${requestsDatas.baseUrl}/line_items`, {
         "endpoint_id": requestsDatas.prepareOrderBody.endpoint_id,
@@ -218,7 +217,7 @@ async function prepareOrder(response) {
         "site_id": requestsDatas.prepareOrderBody.site_id,
         "token": requestsDatas.sessionVars.token
     }).then(async respTakenOrder => {
-        fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order Prepared :" + respTakenOrder + "\r\n")
+        //fs.appendFileSync('orderLogs.txt', new Date().getHours() + ":" + new Date().getMinutes() + "Order Prepared :" + respTakenOrder + "\r\n")
         console.log('Order Prepared') 
         getProduct(logs)
     }).catch(err => {
@@ -286,6 +285,6 @@ getToken();
 getOrders();
 const interval = setInterval(async function() {
      await getOrders();
-}, 200);
+}, 250);
 
 
