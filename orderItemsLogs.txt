@@ -159,3 +159,147 @@
 15:0 Order taken is :    [{"id":"5714911048598","name":["Bottines Femme ONLBOLD-4 PU LACE UP BOOT NOOS Noir"],"marque":["ONLY"],"prixAchat":["22.22"],"prixNet":["59.99"],"pvc":["59.99"]}]
 15:15 Order number is :    WEBP000144536
 15:15 Order taken is :    [{"id":"0192828440011","name":["Veste à capuche Homme M MERAK HOODY Noir"],"marque":["THE NORTH FACE"],"prixAchat":["46.55"],"prixNet":["100.0"],"pvc":["100.0"]}]
+16:49 Order number is :    WEBP000182476
+16:49 Order taken is :    [{"id":"2005773268068","name":["PULL HOMME COL V COTON et LAINE Bleu"],"marque":["MCS"],"prixAchat":["31.8"],"prixNet":["95.0"],"pvc":["95.0"]}]
+17:43 Order number is :    WEBP000182495
+17:43 Order taken is :    [{"id":"0196975711734","name":["Crampons de football Homme ZOOM SUPERFLY 9 ACADEMY FG/MG Beige"],"marque":["NIKE"],"prixAchat":["47.5"],"prixNet":["94.99"],"pvc":["94.99"]}]
+21:15 Order number is :    WEBP000182573
+21:15 Order taken is :    [{"id":"4065426540154","name":["Chaussures Enfant ADVANTAGE K Blanc"],"marque":["ADIDAS"],"prixAchat":["22.5"],"prixNet":["45.0"],"pvc":["45.0"]}]
+21:55 Order number is :    WEBP000182599
+21:55 Order taken is :    [{"id":"0196969021542","name":["Crampons de football Homme ZOOM SUPERFLY 9 ACADEMY FG/MG Bleu"],"marque":["NIKE"],"prixAchat":["47.5"],"prixNet":["94.99"],"pvc":["94.99"]}]
+17:57 Order number is :    WEBP000182778
+17:57 Order taken is :    [{"id":"5715107913393","name":["ONPJETTA HN FLEECE JCK NOOS"],"marque":["ONLY PLAY"],"prixAchat":["14.28"],"prixNet":["39.99"],"pvc":["39.99"]}]
+11:54 Order number is :    WEBP000194506
+11:54 Order taken is :    [{"id":"3606804851045","name":["Pantalon de survetement Homme SAISON 2 PANT REGULAR N1 M Blanc"],"marque":["LE COQ SPORTIF"],"prixAchat":["45.0"],"prixNet":["90.0"],"pvc":["90.0"]}]
+13:46 Order number is :    WEBP000194963
+13:46 Order taken is :    [{"id":"0196974670667","name":["Chaussures de football Homme PHANTOM GX II CLUB TF Blanc"],"marque":["NIKE"],"prixAchat":["30.0"],"prixNet":["59.99"],"pvc":["59.99"]}]
+10:24 Order number is :    WEBP000223474
+10:24 Order taken is :    [{"id":"0886952780579","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+11:10 Order number is :    WEBP000223137
+11:10 Order taken is :    [{"id":"0886952780425","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+11:22 Order number is :    WEBP000223497
+11:22 Order taken is :    [{"id":"0886952781811","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Homme Noir"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+11:54 Order number is :    WEBP000223517
+11:54 Order taken is :    [{"id":"0886952780418","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+12:0 Order number is :    WEBP000223492
+12:0 Order taken is :    [{"id":"0196976305857","name":["Maillot de football Homme FFF M NK DF STAD JSY SS HM France Bleu"],"marque":["NIKE"],"prixAchat":["50.0"],"prixNet":["99.99"],"pvc":["99.99"]}]
+14:8 Order number is :    WEBP000223582
+14:8 Order taken is :    [{"id":"0193148831985","name":["CHAUSSURES LOISIR AIR MAX INVIGOR HOMME Noir"],"marque":["NIKE"],"prixAchat":["55.0"],"prixNet":["109.99"],"pvc":["109.99"]}]
+16:34 Order number is :    WEBP000223676
+16:34 Order taken is :    [{"id":"4062451567552","name":["CHAUSSURES LOISIR PUMA UP Unisexe Blanc"],"marque":["PUMA"],"prixAchat":["30.77"],"prixNet":["60.0"],"pvc":["60.0"]}]
+16:58 Order number is :    WEBP000223688
+16:58 Order taken is :    [{"id":"4099686179144","name":["CHAUSSURES LOISIR PUMA UP Blanc"],"marque":["PUMA"],"prixAchat":["30.77"],"prixNet":["60.0"],"pvc":["60.0"]}]
+18:49 Order number is :    WEBP000223552
+18:49 Order taken is :    [{"id":"0886952780449","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+10:2 Order number is :    WEBP000223922
+10:2 Order taken is :    [{"id":"0886952780432","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+10:2 Order number is :    WEBP000223911
+10:2 Order taken is :    [{"id":"0886952780593","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+11:16 Order number is :    WEBP000223957
+11:16 Order taken is :    [{"id":"0196311459528","name":["CHAUSSURES MICROSPEC MAX - GORVIX CADET Noir"],"marque":["SKECHERS"],"prixAchat":["21.3"],"prixNet":["49.95"],"pvc":["49.95"]}]
+14:25 Order number is :    WEBP000224057
+14:25 Order taken is :    [{"id":"0886952781873","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Homme Noir"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+16:43 Order number is :    WEBP000224132
+16:43 Order taken is :    [{"id":"0886952780579","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+17:37 Order number is :    WEBP000224158
+17:37 Order taken is :    [{"id":"0886952781262","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+18:49 Order number is :    WEBP000224205
+18:49 Order taken is :    [{"id":"0886952780432","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+14:35 Order number is :    WEBP000225017
+14:35 Order taken is :    [{"id":"0886952780623","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+15:31 Order number is :    WEBP000225043
+15:31 Order taken is :    [{"id":"0886952780586","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+15:44 Order number is :    WEBP000225049
+15:44 Order taken is :    [{"id":"3616432677528","name":["SURVÊTEMENT GARÇON SOUTH KNIT SUIT JR Bleu"],"marque":["UMBRO"],"prixAchat":["19.51"],"prixNet":["40.0"],"pvc":["40.0"]}]
+17:27 Order number is :    WEBP000225109
+17:27 Order taken is :    [{"id":"3616432677498","name":["SURVÊTEMENT GARÇON SOUTH KNIT SUIT JR Bleu"],"marque":["UMBRO"],"prixAchat":["19.51"],"prixNet":["40.0"],"pvc":["40.0"]}]
+18:34 Order number is :    WEBP000225143
+18:34 Order taken is :    [{"id":"0886952781361","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+18:48 Order number is :    WEBP000225150
+18:48 Order taken is :    [{"id":"0193148831923","name":["CHAUSSURES LOISIR AIR MAX INVIGOR HOMME Noir"],"marque":["NIKE"],"prixAchat":["55.0"],"prixNet":["109.99"],"pvc":["109.99"]}]
+20:26 Order number is :    WEBP000225227
+20:26 Order taken is :    [{"id":"0886952781354","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+22:41 Order number is :    WEBP000225281
+22:41 Order taken is :    [{"id":"0826220169729","name":["Chaussures Homme AIR MAX LTD 3 TXT Gris"],"marque":["NIKE"],"prixAchat":["65.0"],"prixNet":["129.99"],"pvc":["129.99"]}]
+10:10 Order number is :    WEBP000225374
+10:10 Order taken is :    [{"id":"4067981399635","name":["SWEAT À CAPUCHE FEMME W ESS+ANI HDY FL Beige"],"marque":["PUMA"],"prixAchat":["24.39"],"prixNet":["50.0"],"pvc":["50.0"]}]
+10:37 Order number is :    WEBP000225382
+10:37 Order taken is :    [{"id":"2005773545893","name":["SWEAT Enfant MOLLETON AMERICAN COLLEGE Bleu"],"marque":["AMERICAN COLLEGE"],"prixAchat":["14.5"],"prixNet":["29.99"],"pvc":["29.99"]}]
+11:31 Order number is :    WEBP000225412
+11:31 Order taken is :    [{"id":"4550457727846","name":["CHAUSSURES DE TRAIL GEL-VENTURE 9 WP HOMME Homme GEL-VENTURE 9 WATERPROOF Noir"],"marque":["ASICS"],"prixAchat":["47.5"],"prixNet":["95.0"],"pvc":["95.0"]}]
+14:19 Order number is :    WEBP000225472
+14:19 Order taken is :    [{"id":"0196149534503","name":["Chaussures Enfant NIKE AIR MAX INTRLK LITE (GS) Noir"],"marque":["NIKE"],"prixAchat":["37.5"],"prixNet":["74.99"],"pvc":["74.99"]}]
+15:55 Order number is :    WEBP000225500
+15:55 Order taken is :    [{"id":"0195245398361","name":["W NK DF SWSH CRS BK AOP BRA FEMME"],"marque":["NIKE"],"prixAchat":["20.97"],"prixNet":["42.99"],"pvc":["42.99"]}]
+9:34 Order number is :    WEBP000226368
+9:34 Order taken is :    [{"id":"3666424067844","name":["Doudoune sans manches Homme CLASSIC SWEAT Marron"],"marque":["BENSON AND CHERRY"],"prixAchat":["24.0"],"prixNet":["59.99"],"pvc":["59.99"]}]
+11:12 Order number is :    WEBP000226397
+11:12 Order taken is :    [{"id":"3700646023179","name":["SAC À DOS CHABRAND Homme SAC A DOS - HOLLY Noir"],"marque":["CHABRAND"],"prixAchat":["31.6"],"prixNet":["79.0"],"pvc":["79.0"]}]
+11:40 Order number is :    WEBP000226411
+11:40 Order taken is :    [{"id":"0196153260023","name":["Chaussures de running Homme NIKE JUNIPER TRAIL 2 NN Beige"],"marque":["NIKE"],"prixAchat":["45.0"],"prixNet":["89.99"],"pvc":["89.99"]}]
+11:36 Order number is :    WEBP000226784
+11:36 Order taken is :    [{"id":"3450652668573","name":["BALLON PLASTIQUE OLYMPIQUE 2024 T20-23 CM Bleu"],"marque":["JO24"],"prixAchat":["2.5"],"prixNet":["4.99"],"pvc":["4.99"]}]
+16:16 Order number is :    WEBP000226901
+16:16 Order taken is :    [{"id":"0196977302541","name":["Chaussures Femme WMNS NIKE INITIATOR Blanc"],"marque":["NIKE"],"prixAchat":["40.0"],"prixNet":["79.99"],"pvc":["79.99"]}]
+16:24 Order number is :    WEBP000226907
+16:24 Order taken is :    [{"id":"0886952781828","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Homme Noir"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+16:47 Order number is :    WEBP000226921
+16:47 Order taken is :    [{"id":"0886952781262","name":["CHAUSSURES CHUCK TAYLOR ALL STAR HI ADULTE Unisexe CHUCK TAYLOR ALL STAR CLASSIC"],"marque":["CONVERSE"],"prixAchat":["35.71"],"prixNet":["75.0"],"pvc":["75.0"]}]
+17:18 Order number is :    WEBP000226933
+17:18 Order taken is :    [{"id":"0196607245422","name":["SURVÊTEMENT Enfant K NSW CLUB FLC FZ TRACKSUIT Noir"],"marque":["NIKE"],"prixAchat":["40.0"],"prixNet":["79.99"],"pvc":["79.99"]}]
+17:46 Order number is :    WEBP000226944
+17:46 Order taken is :    [{"id":"0196149259895","name":["Pantalon de survêtement Femme W NSW CLUB FLC MR PANT CARGO Noir"],"marque":["NIKE"],"prixAchat":["30.0"],"prixNet":["59.99"],"pvc":["59.99"]}]
+11:15 Order number is :    WEBP000227166
+11:15 Order taken is :    [{"id":"4062451566838","name":["CHAUSSURES LOISIR PUMA UP Unisexe Blanc"],"marque":["PUMA"],"prixAchat":["30.77"],"prixNet":["60.0"],"pvc":["60.0"]}]
+15:34 Order number is :    WEBP000227269
+15:34 Order taken is :    [{"id":"0196607672044","name":["Chaussures de running Femme W NIKE DOWNSHIFTER 12 Beige"],"marque":["NIKE"],"prixAchat":["35.0"],"prixNet":["69.99"],"pvc":["69.99"]}]
+16:14 Order number is :    WEBP000227288
+16:14 Order taken is :    [{"id":"0196969285579","name":["Chaussures Femme W NIKE COURT VISION LO NN Blanc"],"marque":["NIKE"],"prixAchat":["40.0"],"prixNet":["79.99"],"pvc":["79.99"]}]
+17:27 Order number is :    WEBP000227325
+17:27 Order taken is :    [{"id":"8054043843898","name":["SURVÊTEMENT FILLE Enfant SICILY TRACKSUIT Rose"],"marque":["KAPPA"],"prixAchat":["30.0"],"prixNet":["60.0"],"pvc":["60.0"]}]
+17:49 Order number is :    WEBP000227271
+17:49 Order taken is :    [{"id":"8054043843881","name":["SURVÊTEMENT FILLE Enfant SICILY TRACKSUIT Rose"],"marque":["KAPPA"],"prixAchat":["30.0"],"prixNet":["60.0"],"pvc":["60.0"]}]
+10:28 Order number is :    WEBP000227875
+10:28 Order taken is :    [{"id":"0197594235205","name":["Chaussures Enfant COURT BOROUGH LOW RECRAFT (TD) Gris"],"marque":["NIKE"],"prixAchat":["22.5"],"prixNet":["44.99"],"pvc":["44.99"]}]
+10:35 Order number is :    WEBP000227819
+10:35 Order taken is :    [{"id":"4066761679578","name":["Pantalon de survetement Enfant TIRO23 CBTRPNTY Noir"],"marque":["ADIDAS"],"prixAchat":["19.05"],"prixNet":["40.0"],"pvc":["40.0"]}]
+12:17 Order number is :    WEBP000227905
+12:17 Order taken is :    [{"id":"4066765353542","name":["CHAUSSURES X CRAZYFAST CLUB FXG JUNIOR Enfant"],"marque":["ADIDAS"],"prixAchat":["25.0"],"prixNet":["50.0"],"pvc":["50.0"]}]
+16:2 Order number is :    WEBP000227986
+16:2 Order taken is :    [{"id":"0193148831954","name":["CHAUSSURES LOISIR AIR MAX INVIGOR HOMME Noir"],"marque":["NIKE"],"prixAchat":["55.0"],"prixNet":["109.99"],"pvc":["109.99"]}]
+9:41 Order number is :    WEBP000228994
+9:41 Order taken is :    [{"id":"0886952780654","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+9:59 Order number is :    WEBP000229000
+9:59 Order taken is :    [{"id":"0193148831961","name":["CHAUSSURES LOISIR AIR MAX INVIGOR HOMME Noir"],"marque":["NIKE"],"prixAchat":["55.0"],"prixNet":["109.99"],"pvc":["109.99"]}]
+10:1 Order number is :    WEBP000229001
+10:1 Order taken is :    [{"id":"3662064171149","name":["1 paire de chaussettes Homme SOCQUETTE NEW DOUBLE CLUB Blanc"],"marque":["THYO"],"prixAchat":["5.85"],"prixNet":["13.99"],"pvc":["13.99"]}]
+10:30 Order number is :    WEBP000229011
+10:30 Order taken is :    [{"id":"3324921340012","name":["TUBE DE 6 VOLANTS NYLON CUP Unisexe VOLANT NYLON CUP Blanc"],"marque":["BABOLAT"],"prixAchat":["7.19"],"prixNet":["11.5"],"pvc":["11.5"]}]
+11:35 Order number is :    WEBP000229032
+11:35 Order taken is :    [{"id":"4067981399611","name":["SWEAT À CAPUCHE FEMME W ESS+ANI HDY FL Beige"],"marque":["PUMA"],"prixAchat":["24.39"],"prixNet":["50.0"],"pvc":["50.0"]}]
+19:7 Order number is :    WEBP000229269
+19:7 Order taken is :    [{"id":"4550330926380","name":["Chaussures de running Femme GEL-PULSE 13 Noir"],"marque":["ASICS"],"prixAchat":["55.0"],"prixNet":["110.0"],"pvc":["110.0"]}]
+20:32 Order number is :    WEBP000229314
+20:32 Order taken is :    [{"id":"3700646023179","name":["SAC À DOS CHABRAND Homme SAC A DOS - HOLLY Noir"],"marque":["CHABRAND"],"prixAchat":["31.6"],"prixNet":["79.0"],"pvc":["79.0"]}]
+22:22 Order number is :    WEBP000229369
+22:22 Order taken is :    [{"id":"0196607245422","name":["SURVÊTEMENT Enfant K NSW CLUB FLC FZ TRACKSUIT Noir"],"marque":["NIKE"],"prixAchat":["40.0"],"prixNet":["79.99"],"pvc":["79.99"]}]
+8:15 Order number is :    WEBP000229400
+8:15 Order taken is :    [{"id":"0196977903304","name":["T-shirt Enfant K NSW TEE EMB FUTURA Bleu"],"marque":["NIKE"],"prixAchat":["9.0"],"prixNet":["17.99"],"pvc":["17.99"]}]
+8:24 Order number is :    WEBP000229441
+8:24 Order taken is :    [{"id":"4067981399635","name":["SWEAT À CAPUCHE FEMME W ESS+ANI HDY FL Beige"],"marque":["PUMA"],"prixAchat":["24.39"],"prixNet":["50.0"],"pvc":["50.0"]}]
+9:35 Order number is :    WEBP000229471
+9:35 Order taken is :    [{"id":"0196311459498","name":["CHAUSSURES MICROSPEC MAX - GORVIX CADET Noir"],"marque":["SKECHERS"],"prixAchat":["21.3"],"prixNet":["49.95"],"pvc":["49.95"]}]
+9:57 Order number is :    WEBP000229483
+9:57 Order taken is :    [{"id":"4065449458306","name":["Chaussures Enfant PS CARINA 20 Rose"],"marque":["PUMA"],"prixAchat":["25.64"],"prixNet":["50.0"],"pvc":["50.0"]}]
+10:38 Order number is :    WEBP000229503
+10:38 Order taken is :    [{"id":"5715425486593","name":["JJFUN JACKET JNR"],"marque":["JACK AND JONES JUNIOR"],"prixAchat":["19.63"],"prixNet":["54.99"],"pvc":["54.99"]}]
+11:2 Order number is :    WEBP000229519
+11:2 Order taken is :    [{"id":"0193148831893","name":["CHAUSSURES LOISIR AIR MAX INVIGOR HOMME Noir"],"marque":["NIKE"],"prixAchat":["55.0"],"prixNet":["109.99"],"pvc":["109.99"]}]
+12:51 Order number is :    WEBP000229588
+12:51 Order taken is :    [{"id":"0886952780593","name":["CHAUSSURES CHUCK TAYLOR ALL STAR OX ADULTE Unisexe Blanc"],"marque":["CONVERSE"],"prixAchat":["33.33"],"prixNet":["70.0"],"pvc":["70.0"]}]
+13:32 Order number is :    WEBP000229619
+13:32 Order taken is :    [{"id":"4099686179021","name":["CHAUSSURES LOISIR PUMA UP Blanc"],"marque":["PUMA"],"prixAchat":["30.77"],"prixNet":["60.0"],"pvc":["60.0"]}]
+13:51 Order number is :    WEBP000229635
+13:51 Order taken is :    [{"id":"4067894304726","name":["SWEAT À CAPUCHE HOMME Homme M CB HOODIE Blanc"],"marque":["ADIDAS"],"prixAchat":["28.6"],"prixNet":["60.0"],"pvc":["60.0"]}]
+10:46 Order number is :    WEBP000254846
+10:46 Order taken is :    [{"id":"3468336218259","name":["Bonnet de bain Enfant POLYESTER II KIDS Rose"],"marque":["ARENA"],"prixAchat":["2.38"],"prixNet":["5.0"],"pvc":["5.0"]}]
